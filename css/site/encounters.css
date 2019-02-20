@@ -1,0 +1,168 @@
+
+button {
+  font-family: inherit;
+  border: 0;
+  cursor: pointer;
+}
+button:focus {
+  outline: 0;
+}
+
+.encounters-card {
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 100%;
+  max-width: 800px;
+  min-height: 300px;
+  display: block;
+  margin: 8vh auto;
+  border-radius: 8px;
+  box-shadow: 0px 8px 12px 0px rgba(0, 0, 0, 0.25);
+  position: relative;
+      background: linear-gradient(to right, rgba(42, 159, 255, 0.2) 0%, #212120 60%, #212120 100%);
+}
+@media screen and (max-width: 800px) {
+  .encounters-card {
+    width: 95%;
+    max-width: 95%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .encounters-card {
+    background-position: 50% 0%;
+    background-size: cover;
+    height: 650px;
+	
+	
+	}
+	 .encounters-card img {
+width:100%
+	}
+}
+.encounters-card__overlay {
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+  background-blend-mode: multiply;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+@media screen and (max-width: 600px) {
+  .encounters-card__overlay {
+  }
+}
+.encounters-card__share {
+  padding: 1em;
+  display: inline-block;
+  width: 100%;
+  max-width: 130px;
+}
+@media screen and (max-width: 600px) {
+  .encounters-card__share {
+    display: block;
+    width: 100%;
+  }
+}
+.encounters-card__icon {
+  color: #ffffff;
+  mix-blend-mode: lighten;
+  opacity: .4;
+  background: none;
+  padding: 0;
+}
+.encounters-card__icon:hover {
+  opacity: 1;
+  mix-blend-mode: lighten;
+}
+.encounters-card__icon:not(:first-of-type) {
+  margin-left: 5px;
+}
+.encounters-card__icon i {
+  font-size: 1.2em;
+}
+.encounters-card__content {
+  width: 100%;
+  max-width: 370px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  position: relative;
+  float: right;
+  padding-right: 1em;
+  padding-bottom: 1em;
+}
+@media screen and (max-width: 1000px) {
+  .encounters-card__content {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+.encounters-card__content {
+    width: 100%;
+    float: inherit;
+    max-width: 100%;
+    padding: 0 1em 1em;
+    background: linear-gradient(to right, rgb(0, 0, 0) 0%, #212120 60%, #212120 100%);
+  }
+}
+.encounters-card__header {
+  margin-bottom: 2em;
+}
+.encounters-card__title {
+  color: #ffffff;
+  margin-bottom: .25em;
+  opacity: .75;
+  font-size: 42px;
+}
+.encounters-card__info {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: .8em;
+  color: #2a9fff;
+  line-height: 1;
+  margin: 0;
+  font-weight: 700;
+  opacity: .5;
+}
+.encounters-card__desc {
+  font-weight: 300;
+  opacity: .84;
+  margin-bottom: 2em;
+}
+
+h1, h2, h3 {
+  font-family: "Montserrat", helvetica, arial, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  line-height: 1;
+  font-weight: 400;
+}
+
+.btn {
+  background-color: rgba(255, 255, 255, 0.4);
+  color: white;
+}
+
+.btn-outline {
+  background-color: transparent;
+  border: 3px solid #ffffff;
+  box-shadow: 0px 1px 8px 0px rgba(245, 199, 0, 0.6);
+
+}
+
+
+
+.encounters-card p{
+	color:white;
+}
+
+.response_unlike{
+	margin-top:-35px;
+	padding-right:20px;
+	margin-left:65px;
+  box-shadow: 0px 1px 8px 0px rgba(245, 199,255,0.4);
+	{
